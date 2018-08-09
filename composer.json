@@ -1,0 +1,21 @@
+{
+    "name": "jitamin/json-rpc",
+        "description": "json-rpc",
+        "homepage": "https://github.com/jitamin/json-rpc",
+        "type": "library",
+        "license": "MIT",
+        "authors": [
+        {
+            "name": "Frédéric Guillot"
+        }
+    ],
+        "require": {
+            "php": ">=5.3.4"
+        },
+        "autoload": {
+            "psr-0": {"json-rpc": "src/"}
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.*"
+        }
+}
